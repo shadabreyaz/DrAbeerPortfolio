@@ -1,0 +1,74 @@
+:root {
+    --primary-bg: #f1e7e4;
+    --secondary-bg: #efe9e7;
+    --text-color: #424242;
+    --border-color:#d8d8d8;
+    --accent-color:#a6a6a6;
+    --font-family: 'Raleway', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Nata Sans', sans-serif;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gradient{
+/* background: linear-gradient(90deg, #d8a39d, #424242); */
+  background: linear-gradient(90deg, #d8a39d, #efe9e7, #424242);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
+/* Container */
+.container {
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+/* glass button */
+.glass-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #d8d8d8; /* your border color */
+    color: #424242; /* text color */
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(8px);
+    transition: background 0.3s ease;
+}
+  
+.glass-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
