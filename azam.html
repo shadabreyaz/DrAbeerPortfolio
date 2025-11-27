@@ -4,54 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Page</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&family=Raleway:wght@100..900&display=swap"
+        rel="stylesheet" />
+
+
+    <!-- Fontawesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- SOCIAL ICONS Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Main style -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="azam.css">
+</head>
 
 <body>
+    <div class="container">
 
-    <section class="gallery-section">
-        <div class="container">
-            <h2 class="gallery-title">Gallery</h2>
+        <!-- Left Section -->
+        <div class="left">
+            <h2>Contact Me</h2><hr>
+            <p>
+                If you have questions about your health, need advice, or want to schedule an appointment, feel free to contact me. I am here to support you and provide the care you need. Use the form on this page or the contact details provided, and I will respond as soon as possible.
+            </p><hr>
 
-            <div class="gallery-container">
-
-                <div class="gallery-item">
-                    <img src="./assets/card1.jpg" alt="Image 1">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./assets/card7.jpg" alt="Image 2">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./assets/card3.jpg" alt="Image 3">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./assets/card4.jpg" alt="Image 4">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./assets/card5.jpg" alt="Image 5">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./assets/card6.jpg" alt="Image 6">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./assets/card2.jpg" alt="Image 7">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./assets/card8.jpg" alt="Image 8">
-                </div>
-            </div>
+            <p class="info">
+                <span>📧 info@drabeeralteneiji.com</span> <br>
+                <span>📞 Support: (+21) 123 456 586</span>
+            </p>
         </div>
-    </section>
 
+        <!-- Contact Form -->
+        <div class="right">
+            <h3>We’d love to hear from you! Let's get in touch</h3>
 
+            <form>
+                <div class="row">
+                    <label>First Name <input type="text" placeholder=""></label>
+                    <label>Last Name<input type="text" placeholder=""></label>
+                </div>
+                <div class="row">
+                    <label>Phone<input type="number" placeholder=""></label>
+                    <label>Address<input type="text" placeholder="">
+                </div>
+
+                <div class="row">
+                    <label>Email<input type="email" placeholder=""></label>
+                </div>
+                <label>Message
+                    <textarea placeholder="Enter Your text Here..."></textarea>
+                </label>
+
+                <button type="submit" class="glass-btn">Send Message</button>
+            </form>
+        </div>
+
+    </div>
 </body>
 
 </html>
