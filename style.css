@@ -306,9 +306,12 @@ a {
     line-height: 1.2;
     margin-bottom: 1rem;
   }
-  .hero-content p{
-    font-size: 18px;
+  .hero-content .hero-desc{
     margin-bottom: 2rem;
+  }
+  .hero-desc p{
+    font-size: 18px;
+    margin-bottom: 0.8rem;
   }
   .buttons{
     display: flex;
