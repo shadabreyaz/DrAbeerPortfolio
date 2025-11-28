@@ -560,6 +560,7 @@ a {
   .gallery-item {
       overflow: hidden;
       border-radius: 10px;
+      height: 320px;
   }
 
   .gallery-item img {
@@ -907,6 +908,9 @@ a {
     .gallery-title {
       font-size: 2rem;
     }
+    .gallery-item {
+      height: 280px;
+    }
     .footer-heading{
         font-size: 2rem;
     }
@@ -996,6 +1000,9 @@ a {
     }
     .gallery-container {
       margin-block: 1.5rem;
+    }
+    .gallery-item {
+      height: 220px;
     }
     .footer-container {
         padding: 2rem 1rem;
