@@ -340,6 +340,18 @@ a {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
   }
 
+  .gallery-btn{
+    padding: 0.6rem 1.2rem;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-radius: 2rem;
+    border: none;
+    background: linear-gradient(90deg, #d8a39d, #424242);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
 
 /* About css */
 .about-section{
@@ -560,7 +572,85 @@ a {
   .gallery-item img:hover {
       transform: scale(1.05);
   }
+
+
+  /* CSS for Contact */
+  .contact-section{
+    padding: 3rem 2rem;
+    background: var(--secondary-bg);
+  }
+  .contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  .left{
+    width: 50%;
+  }
+  .contact-heading{
+    text-align: left;
+  }
+  .hr-line{
+    margin-bottom: 2rem;
+  }
+  .contact-para{
+    font-size: 18px;
+  }
+  .info img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+    margin: 3rem 0 2.5rem 0;
+    border-radius: 20px;
+  }
+
+  .right {
+    width: 50%;
+    padding: 2rem;
+    background: white;
+    border-radius: 20px;
+  }
+
+  .form-heading {
+      margin-bottom: 2rem;
+  }
+
+  form .row {
+      display: flex;
+      gap: 2.2rem;
+      margin-bottom: 15px;
+  }
+
+  .row label {
+      width: 100%;
+  }
+
+  input,
+  textarea {
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid rgba(17, 12, 12, 0.6);
+      margin-top: 12px;
+      font-size: 14px;
+  }
+
+  textarea {
+      height: 120px;
+      margin-bottom: 15px;
+  }
+
+  .full {
+      margin-bottom: 15px;
+  }
   
+  .contact-btn{
+    width: 100%;
+    border-color: var(--accent-color);
+  }
+
   /* FOOTER CSS */
   .footer-container{
     background-color: white;
@@ -777,6 +867,13 @@ a {
     .about-content {
       width: 100%;
     }
+    .contact-wrapper {
+     flex-direction: column;
+      gap: 3rem;
+    }
+    .left,.right{
+      width: 100%;
+    }
     .footer-content {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -857,8 +954,18 @@ a {
     .navbar-content {
       padding: 0rem 1rem;
     }
-    .about-section {
+    .about-section,.contact-section{
       padding: 2rem 1rem;
+    }
+    .contact-para {
+      font-size: 16px;
+    }
+    .info img {
+      height: 200px; 
+      margin: 2rem 0 0.5rem 0;
+   }
+    .right {
+    padding: 0.8rem;
     }
     .hero-image{
       height: 280px;
