@@ -82,3 +82,11 @@ document.querySelectorAll('.animate-on-scroll,.animate-card-on-scroll,.animate-i
   observer.observe(el);
 });
 
+
+
+
+document.querySelectorAll(
+  '.animate-on-scroll, .animate-card-on-scroll, .animate-image, .reveal-left, .reveal-right'
+).forEach(el => {
+  observer.observe(el);
+});
