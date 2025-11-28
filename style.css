@@ -873,7 +873,7 @@ a {
      flex-direction: column;
       gap: 3rem;
     }
-    .left,.right{
+    .left,.right-form{
       width: 100%;
     }
     .footer-content {
@@ -969,8 +969,17 @@ a {
       height: 200px; 
       margin: 2rem 0 0.5rem 0;
    }
-    .right {
-    padding: 0.8rem;
+    .right-form {
+    padding: 1rem;
+    }
+    form .row {
+      gap: 1rem;
+      margin-bottom: 12px;
+    }
+    input, textarea {
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 13px;
     }
     .hero-image{
       height: 280px;
