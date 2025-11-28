@@ -241,9 +241,11 @@ a {
 
 
   /* Hero CSS  */
+  .hero-container{
+    background: var(--tertiary-bg);
+  }
   .hero-section{
     padding-block: 5rem 0;
-    background: var(--tertiary-bg);
     display: flex;
     align-items: center;
   }
